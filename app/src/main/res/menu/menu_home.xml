@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_filter"
+        android:icon="@drawable/mnubar_ic_filter"
+        android:title="Filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/inprocess"
+                android:checkable="true"
+                android:title="@string/dis_remove"
+                app:showAsAction="never"></item>
+            <item
+                android:id="@+id/hashide"
+                android:checkable="true"
+                android:title="@string/dis_share"
+                app:showAsAction="never"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/mnubar_ic_sort"
+        android:title="Sort"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/asc"
+                android:checkable="true"
+                android:title="@string/Ascending"
+                app:showAsAction="never"></item>
+            <item
+                android:id="@+id/dsc"
+                android:checkable="true"
+                android:title="@string/Descending"
+                app:showAsAction="never"></item>
+        </menu>
+    </item>
+
+</menu>

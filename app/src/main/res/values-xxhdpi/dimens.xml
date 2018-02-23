@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_monthly_item_height">130dp</dimen>
+    <dimen name="list_annually_item_height">210dp</dimen>
+</resources>

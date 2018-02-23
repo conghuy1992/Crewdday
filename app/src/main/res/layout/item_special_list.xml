@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/special_day_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:id="@+id/start_day_chose_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dday_activity_divider">
+
+            <TextView
+                android:id="@+id/txt_start_day_chose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="2015-04-06"
+                android:textSize="@dimen/text_size_13_15" />
+
+            <ImageView
+                android:id="@+id/img_special_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/txt_start_day_chose"
+                android:src="@drawable/add_ic_arrow" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_remove_special_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/start_day_chose_container"
+            android:src="@drawable/add_ic_delete"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_add_special_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_remove_special_day"
+            android:src="@drawable/add_ic_add" />
+
+    </RelativeLayout>
+
+</LinearLayout>

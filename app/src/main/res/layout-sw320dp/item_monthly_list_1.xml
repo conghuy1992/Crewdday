@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp">
+
+
+
+    <RadioButton
+        android:id="@+id/rb_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/radiobutton_selector"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/date_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_date"
+        android:layout_alignTop="@+id/rb_date"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/rb_date"
+        android:background="@drawable/dday_activity_divider">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01 D"
+            android:textSize="@dimen/text_size_13_15" />
+
+        <ImageView
+            android:id="@+id/img_chosen_date_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/txt_date"
+            android:src="@drawable/add_ic_arrow" />
+
+    </RelativeLayout>
+
+
+    <RadioButton
+        android:id="@+id/rb_week_and_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rb_date"
+        android:layout_marginLeft="@dimen/margin_left_5_10"
+        android:layout_toRightOf="@+id/date_container"
+        android:button="@drawable/radiobutton_selector" />
+
+
+    <RelativeLayout
+        android:id="@+id/week_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_date"
+        android:layout_alignTop="@+id/rb_date"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/rb_week_and_day"
+        android:background="@drawable/dday_activity_divider">
+
+        <TextView
+            android:id="@+id/txt_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly"
+            android:textSize="@dimen/text_size_13_15" />
+
+        <ImageView
+            android:id="@+id/img_chosen_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/txt_week"
+            android:src="@drawable/add_ic_arrow" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/day_choose_container_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/day_container"
+        android:layout_alignRight="@+id/day_container"
+        android:layout_alignTop="@+id/day_container"
+        android:layout_marginLeft="@dimen/items_insided_fragment_margin_left"
+        android:layout_toRightOf="@+id/week_container"
+        android:background="@drawable/dday_activity_divider">
+
+        <Spinner
+            android:id="@+id/spin_chosen_day"
+            android:layout_width="@dimen/spinner_monthly_day_width"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/img_chosen_day_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/spin_chosen_day"
+            android:src="@drawable/add_ic_arrow" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/day_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_date"
+        android:layout_alignTop="@+id/rb_date"
+        android:layout_marginLeft="@dimen/margin_left_5_10"
+        android:layout_toRightOf="@+id/week_container"
+        android:background="@drawable/dday_activity_divider">
+
+        <TextView
+            android:id="@+id/txt_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textSize="@dimen/text_size_13_15" />
+
+        <ImageView
+            android:id="@+id/img_chosen_day_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/txt_day"
+            android:src="@drawable/add_ic_arrow" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/dummy_view"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_week_and_day"
+        android:layout_alignTop="@+id/rb_week_and_day"
+        android:layout_marginLeft="145dp"
+        android:layout_toRightOf="@+id/rb_date" />
+
+
+
+    <ImageView
+        android:id="@+id/img_add_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dummy_view"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/dummy_view"
+        android:src="@drawable/add_ic_add" />
+
+    <ImageView
+        android:id="@+id/img_delete_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img_add_items"
+        android:layout_below="@+id/img_add_items"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/add_ic_delete"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

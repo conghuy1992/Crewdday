@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/ln_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/sp_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/sp_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sp_day_of_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ln_spinner"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_remove"
+            android:layout_width="@dimen/btnadd_remove"
+            android:layout_height="@dimen/btnadd_remove"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/add_ic_delete"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_add"
+            android:layout_width="@dimen/btnadd_remove"
+            android:layout_height="@dimen/btnadd_remove"
+            android:layout_gravity="center"
+            android:src="@drawable/add_ic_add"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</RelativeLayout>

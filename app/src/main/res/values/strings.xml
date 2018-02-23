@@ -1,0 +1,576 @@
+<resources>
+    <string name="app_name">CrewDDay</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="message_network_checking">Please check your network connection.</string>
+    <string name="message_network_unstable">The network is unstable.</string>
+    <string name="text_try_again">Try again</string>
+    <string name="phonenumber">PHONE NUMBER</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_network_error">Can Not Connect To Server</string>
+
+    <string name="have_no_id_string"> There are two kinds of ID, organization ID and Personal ID.
+The organization ID means the company ID or the team ID ,
+and it might have been issued or not in the CrewCloud site as bellow.\n
+
+1. In case that the organization ID  has issued already.\n
+If someone(we call him ‘site manager’) of your company or team has composed your organization already
+In the CrewCloud website, www.crewcloud.net , then you just need to ask your site manager for your ID to be created
+or ask him or her to send the the ‘request mail for registration’ so as to register your ID by yourself.\n
+
+2. In case that the organization ID  has not issued yet.\n
+In this case, Someone(we call him ‘site manager’) of your company or team needs to connect
+the CrewCloud website, www.crewcloud.net , compose your organization(company or team) first
+and then register your members in advance or send your members  the ‘request mail for registration’
+so as that the members register by themselves </string>
+    <string name="forgot_pass_back_btn_text">Back to Login</string>
+    <string name="help_text">help</string>
+    <!-- LoginActivity -->
+    <string name="loginActivity_help">Help</string>
+    <string name="loginActivity_logIn">Login</string>
+    <string name="loginActivity_password">Password</string>
+    <string name="loginActivity_userName">Personal ID</string>
+    <string name="loginActivity_organizationID">Group(Company) ID</string>
+    <string name="have_no_id"> Have no UserID </string>
+
+    <string name="loginActivity_message_organizationId">Please enter your organization ID</string>
+    <string name="loginActivity_message_userName">Please Enter your username</string>
+    <string name="loginActivity_message_password">Please Enter your password</string>
+
+    <!-- HomeActivity -->
+    <string name="share_dday_show">Share DDay Show</string>
+    <string name="no_data">No data</string>
+
+    <!-- DDayActivity-->
+    <string name="special_day">Special Day</string>
+    <string name="annualy">Annually</string>
+    <string name="lunar">Lunar</string>
+    <string name="all">All</string>
+    <string name="dday_minus">D-Day</string>
+    <string name="dday_plus">D+Day</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_content">Enter description</string>
+    <string name="sharer">Sharer</string>
+    <string name="nosharer">No Sharer</string>
+    <string name="personal_concerned">Person concerned</string>
+    <string name="co_administrator">Co-administrator</string>
+    <string name="title_activity_content">DDay view</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+
+    <!-- DetailViewActivity-->
+
+    <string name="repeat">Repeat</string>
+    <string name="norepeat">No Repeat</string>
+    <string name="writer">Writer</string>
+
+
+    <string-array name="tag_background_color">
+        <item>#ffffff</item>
+        <item>#fb8f91</item>
+        <item>#fda365</item>
+        <item>#fcea3f</item>
+        <item>#32df34</item>
+        <item>#5fb0fd</item>
+        <item>#d67eff</item>
+        <item>#9fdcc9</item>
+        <item>#c6d2b0</item>
+        <item>#daaec2</item>
+        <item>#dad9dc</item>
+        <item>#6b7994</item>
+        <item>#bfbfbf</item>
+        <item>#4f4f4f</item>
+        <item>#c11a25</item>
+        <item>#e2620d</item>
+        <item>#c79930</item>
+        <item>#b9b300</item>
+        <item>#368f2b</item>
+        <item>#329b7a</item>
+        <item>#778b45</item>
+        <item>#0eacbf</item>
+        <item>#6e53b4</item>
+        <item>#6b8082</item>
+        <item>#06dbe3</item>
+        <item>#0611e3</item>
+        <item>#f000ff</item>
+        <item>#ad80ff</item>
+        <item>#b0601a</item>
+        <item>#7dde00</item>
+    </string-array>
+
+
+    <string-array name="tag_border_color">
+        <item>#000000</item>
+        <item>#e36e73</item>
+        <item>#de6227</item>
+        <item>#dfca25</item>
+        <item>#21bd18</item>
+        <item>#398dde</item>
+        <item>#aa4ede</item>
+        <item>#2c7e65</item>
+        <item>#697945</item>
+        <item>#813d5f</item>
+        <item>#455677</item>
+        <item>#2f394d</item>
+        <item>#4f4f4f</item>
+        <item>#000000</item>
+        <item>#661217</item>
+        <item>#662e08</item>
+        <item>#664901</item>
+        <item>#7a7a1d</item>
+        <item>#2c6625</item>
+        <item>#266652</item>
+        <item>#434d29</item>
+        <item>#096a76</item>
+        <item>#3d2972</item>
+        <item>#395052</item>
+        <item>#078d92</item>
+        <item>#060d90</item>
+        <item>#aa06b4</item>
+        <item>#6533c0</item>
+        <item>#854208</item>
+        <item>#5ba001</item>
+    </string-array>
+
+
+    <string-array name="tag_icon_array">
+        <item>tag_icon_01</item>
+        <item>tag_icon_02</item>
+        <item>tag_icon_03</item>
+        <item>tag_icon_04</item>
+        <item>tag_icon_05</item>
+        <item>tag_icon_06</item>
+        <item>tag_icon_07</item>
+        <item>tag_icon_08</item>
+        <item>tag_icon_09</item>
+        <item>tag_icon_10</item>
+        <item>tag_icon_11</item>
+        <item>tag_icon_12</item>
+        <item>tag_icon_13</item>
+        <item>tag_icon_14</item>
+        <item>tag_icon_15</item>
+        <item>tag_icon_16</item>
+        <item>tag_icon_17</item>
+        <item>tag_icon_18</item>
+        <item>tag_icon_19</item>
+        <item>tag_icon_20</item>
+        <item>tag_icon_21</item>
+        <item>tag_icon_22</item>
+        <item>tag_icon_23</item>
+        <item>tag_icon_24</item>
+        <item>tag_icon_25</item>
+        <item>tag_icon_26</item>
+        <item>tag_icon_27</item>
+        <item>tag_icon_28</item>
+        <item>tag_icon_29</item>
+        <item>tag_icon_30</item>
+    </string-array>
+
+
+    <!-- Daily -->
+
+    <string-array name="daily_interval_array">
+        <item>Daily</item>
+        <item>Every 2 days</item>
+        <item>Every 3 days</item>
+        <item>Every 4 days</item>
+        <item>Every 5 days</item>
+        <item>Every 6 days</item>
+        <item>Every 7 days</item>
+        <item>Every 8 days</item>
+        <item>Every 9 days</item>
+        <item>Every 10 days</item>
+        <item>Every 11 days</item>
+        <item>Every 12 days</item>
+        <item>Every 13 days</item>
+        <item>Every 14 days</item>
+        <item>Every 15 days</item>
+        <item>Every 16 days</item>
+        <item>Every 17 days</item>
+        <item>Every 18 days</item>
+        <item>Every 19 days</item>
+        <item>Every 20 days</item>
+        <item>Every 21 days</item>
+        <item>Every 22 days</item>
+        <item>Every 23 days</item>
+        <item>Every 24 days</item>
+        <item>Every 25 days</item>
+        <item>Every 26 days</item>
+        <item>Every 27 days</item>
+        <item>Every 28 days</item>
+        <item>Every 29 days</item>
+        <item>Every 30 days</item>
+        <item>Every 31 days</item>
+        <item>Every 100 days</item>
+        <item>Every 1000 days</item>
+    </string-array>
+
+
+    <!-- Weekly -->
+
+
+    <string-array name="weekly_interval_array">
+        <item>Weekly</item>
+        <item>Every 2 weeks</item>
+        <item>Every 3 weeks</item>
+        <item>Every 4 weeks</item>
+        <item>Every 5 weeks</item>
+        <item>Every 6 weeks</item>
+        <item>Every 7 weeks</item>
+        <item>Every 8 weeks</item>
+        <item>Every 9 weeks</item>
+        <item>Every 10 weeks</item>
+        <item>Every 11 weeks</item>
+        <item>Every 12 weeks</item>
+        <item>Every 13 weeks</item>
+        <item>Every 14 weeks</item>
+        <item>Every 15 weeks</item>
+        <item>Every 16 weeks</item>
+        <item>Every 17 weeks</item>
+        <item>Every 18 weeks</item>
+        <item>Every 19 weeks</item>
+        <item>Every 20 weeks</item>
+        <item>Every 21 weeks</item>
+        <item>Every 22 weeks</item>
+        <item>Every 23 weeks</item>
+        <item>Every 24 weeks</item>
+        <item>Every 25 weeks</item>
+        <item>Every 26 weeks</item>
+        <item>Every 27 weeks</item>
+        <item>Every 28 weeks</item>
+        <item>Every 29 weeks</item>
+        <item>Every 30 weeks</item>
+        <item>Every 31 weeks</item>
+        <item>Every 32 weeks</item>
+        <item>Every 33 weeks</item>
+        <item>Every 34 weeks</item>
+        <item>Every 35 weeks</item>
+        <item>Every 36 weeks</item>
+        <item>Every 37 weeks</item>
+        <item>Every 38 weeks</item>
+        <item>Every 39 weeks</item>
+        <item>Every 40 weeks</item>
+        <item>Every 41 weeks</item>
+        <item>Every 42 weeks</item>
+        <item>Every 43 weeks</item>
+        <item>Every 44 weeks</item>
+        <item>Every 45 weeks</item>
+        <item>Every 46 weeks</item>
+        <item>Every 47 weeks</item>
+        <item>Every 48 weeks</item>
+        <item>Every 49 weeks</item>
+        <item>Every 50 weeks</item>
+        <item>Every 51 weeks</item>
+        <item>Every 52 weeks</item>
+        <item>Every 53 weeks</item>
+    </string-array>
+
+
+    <!-- Monthly -->
+
+
+    <string-array name="monthly_interval_array">
+        <item>Monthly</item>
+        <item>Every 2 months</item>
+        <item>Every 3 months</item>
+        <item>Every 4 months</item>
+        <item>Every 5 months</item>
+        <item>Every 6 months</item>
+        <item>Every 7 months</item>
+        <item>Every 8 months</item>
+        <item>Every 9 months</item>
+        <item>Every 10 months</item>
+        <item>Every 11 months</item>
+    </string-array>
+    <string-array name="monthly_date_array">
+        <item>01 D</item>
+        <item>02 D</item>
+        <item>03 D</item>
+        <item>04 D</item>
+        <item>05 D</item>
+        <item>06 D</item>
+        <item>07 D</item>
+        <item>08 D</item>
+        <item>09 D</item>
+        <item>10 D</item>
+        <item>11 D</item>
+        <item>12 D</item>
+        <item>13 D</item>
+        <item>14 D</item>
+        <item>15 D</item>
+        <item>16 D</item>
+        <item>17 D</item>
+        <item>18 D</item>
+        <item>19 D</item>
+        <item>20 D</item>
+        <item>21 D</item>
+        <item>22 D</item>
+        <item>23 D</item>
+        <item>24 D</item>
+        <item>25 D</item>
+        <item>26 D</item>
+        <item>27 D</item>
+        <item>28 D</item>
+        <item>29 D</item>
+        <item>30 D</item>
+        <item>31 D</item>
+        <item>Last day</item>
+    </string-array>
+    <string-array name="monthly_week_array">
+        <item>Every Week</item>
+        <item>1st Week</item>
+        <item>2nd Week</item>
+        <item>3rd Week</item>
+        <item>4th Week</item>
+        <item>5th Week</item>
+        <item>Last week</item>
+    </string-array>
+    <string-array name="monthly_day_array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+
+    <!-- 					Annually 					-->
+
+
+    <string-array name="annually_interval_array">
+        <item>Every year</item>
+        <item>Every 2 years</item>
+        <item>Every 3 years</item>
+        <item>Every 4 years</item>
+        <item>Every 5 years</item>
+    </string-array>
+
+    <string-array name="annually_month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="annually_calendar_type_array">
+        <item>Solar</item>
+        <item>Lunar</item>
+        <item>Leaf</item>
+    </string-array>
+    <string name="add_dday">Add New DDay</string>
+    <string name="update_dday">Update DDay</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="ok2">OK</string>
+    <string name="select">Select one type of repeat</string>
+    <string name="frequency">Frequency</string>
+    <string name="startend">Start</string>
+    <string name="end">End</string>
+    <string name="option">Option</string>
+    <string name="holiday">If holiday</string>
+    <string-array name="daily_option">
+        <item>No</item>
+        <item>Restart yearly</item>
+        <item>Restart monthly</item>
+        <item>Restart weekly</item>
+    </string-array>
+    <string-array name="daily_holiday">
+        <item>Very Day</item>
+        <item>Previous Day</item>
+        <item>Next Day</item>
+        <item>Skip</item>
+    </string-array>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="sure_delete">Are you sure to delete?</string>
+    <string name="Dday">DDay</string>
+    <string name="PERSONAL_ID">PERSONAL ID</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="COMPANY_NAME">COMPANY NAME</string>
+    <string name="make_complete">Complete</string>
+
+    <string name="edit_comment_notify">Are you want to save?</string>
+    <string name="typesomething">Please type something</string>
+    <string name="Confirm">Confirm</string>
+    <string name="notify_chooseday">This date already exists, please choose another date</string>
+
+    <string-array name="array_notify">
+        <item>No Alarm</item>
+        <item>The day</item>
+        <item>A day ago</item>
+    </string-array>
+    <string-array name="array_notify_2">
+        <item>The day</item>
+        <item>A day ago</item>
+    </string-array>
+    <string name="profle">My Profile</string>
+    <string name="Generalsettings">General settings</string>
+    <string name="notify_setting">Notification Settings</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Settings</string>
+    <string name="getnotify">Notification</string>
+    <string name="noti_method">Notification Method</string>
+    <string name="sound">Sound</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="notifi_time">Notification Time</string>
+    <string name="Solar">Solar</string>
+    <string name="Leaf">Leaf</string>
+    <string name="showmore">Show more option</string>
+    <string name="Allow"> Inhibit from removing shared DDay</string>
+    <string name="detail_ic_ask">If you click the checkbox, the recipient does not have the right content DDay remove this content. Where applicable to the project manager, DDay important.</string>
+    <string name="selectgroup">Select Group</string>
+
+    <string name="hidec">Remove from list</string>
+    <string name="editc">Edit</string>
+    <string name="permiss">You do not have permission to edit this content</string>
+    <string name="hide">Hide</string>
+    <string name="wanthide">Do you want to hide this content?</string>
+    <string name="updatesuccess">Update data success</string>
+    <string name="unhide">Restore hidden</string>
+    <string name="uncomp">Restore</string>
+    <string name="dis_remove">Display removed DDay</string>
+    <string name="dis_share">Display shared DDay</string>
+    <string name="movehid">Do you want to hide this content?</string>
+    <string name="asklogout">Do you want to Logout?</string>
+    <string name="Undefined">Undefined</string>
+    <string name="noconcerned">No Person concerned</string>
+    <string name="noadmin">No Co-administrator</string>
+    <string name="string_sign_up">Create a new Group(Company)</string>
+    <string name="sign_up_suggest">Haven\'t you your Group(Company) ID yet?</string>
+    <string name="sign_up_note">We will send a link to create a new group(company) on CrewCloud.</string>
+    <string name="sign_up_note2">Enter your email address.</string>
+    <string name="enter_your_email">Mail address</string>
+    <string name="register">Send</string>
+    <string name="title_sign_up_screen">Create a new Group(Company)</string>
+    <string name="invalid">Invalid data</string>
+    <string name="menu_daily">Daily</string>
+    <string name="menu_week">Weekly</string>
+    <string name="menu_month">Monthly</string>
+    <string name="myself">My Self</string>
+    <string name="Ascending">Ascending</string>
+    <string name="Descending">Descending</string>
+    <string name="newgr">New</string>
+    <string name="string_done">Done</string>
+    <string name="wc_1_intro">CrewDday</string>
+    <string name="wc_1_title">Thanks for installing CrewDday App which is one of the CrewCloud modules.</string>
+    <string name="wc_1_content">CrewDday is for groups(companies)and it can increase their work performances  as  sharing the business  ddays with employees each other.</string>
+    <string name="wc_2_intro">Features</string>
+    <string name="wc_2_content">Daily, weekly, monthly and yearly repeations</string>
+    <string name="wc_2_content_2">Solar, lunar and leaf repeations</string>
+    <string name="wc_2_content_3">Daily, weekly, monthly and yearly mixed repeations</string>
+    <string name="wc_2_content_4">Share Ddays with employees</string>
+    <string name="wc_2_content_5">Set co-administrators</string>
+    <string name="wc_2_content_6">Set Related Person</string>
+    <string name="wc_2_content_7">Make DDay to be completed for project-DDay</string>
+    <string name="wc_2_content_8">Various alarms and multiple  alarm dates and times</string>
+    <string name="wc_3_intro">Application field</string>
+    <string name="wc_3_content">
+      CrewDday, because of it’s DDay-sharing  advantages  with employees,  it can be applied in many fileds as below.\n
+- Project DDay\n
+- Collect bills/payments DDay\n
+- Tax/Insurances payment DDay\n
+- Company Event DDay\n
+- Employees’ individual event\n
+    </string>
+    <string name="wc_4_intro">Holidays managements</string>
+    <string name="wc_4_content">The holidays of all contries over the world including Korea can be set in advance.</string>
+    <string name="wc_4_content_2">Holidays can be set by individual or group</string>
+    <string name="wc_4_content_3">Substitute holidays can be set.</string>
+    <string name="wc_4_content_4">Substitute working-days can be set.</string>
+    <string name="wc_4_content_5">Lunar holidays can be set.</string>
+    <string name="wc_4_content_6">Repeatations for every holidays can be set</string>
+    <string name="wc_5_intro">Introduction Effects</string>
+    <string name="wc_5_content">It increases the sense of unity much more as sharing the company’s events  with all employees</string>
+    <string name="wc_5_content_2">It increases the work performances much more as sharing the important business with the related employees</string>
+    <string name="wc_6_text1">The CrewDDay is one of the excellent modules of the CrewCloud, the Enterprise Potal Solution.</string>
+    <string name="wc_6_text2">If you wan to see more about CrewCloud or CrewDDay, Then Pls don\'t hegitate to click the below link</string>
+    <string name="wc_6_text3">Subscribe</string>
+    <string name="chooseone">You can only choose one person</string>
+    <string name="changegroup">Change Group</string>
+    <string name="startPlus">Start</string>
+    <string name="del_group_y">Yes</string>
+    <string name="del_group_n">No</string>
+    <string name="del_group_q">Do you want to delete this group?</string>
+    <string name="groupname">Group Name</string>
+    <string name="save">Save</string>
+    <string name="typegr">Type group name...</string>
+    <string name="typeip">Please type group name</string>
+    <string name="addGroup">Add Group</string>
+    <string name="inputpls">Please input title</string>
+    <string name="managementtools">Management Tools</string>
+    <string name="addDepartment">Add Top Department</string>
+    <string name="editName">Edit Name</string>
+    <string name="addUser">Add User</string>
+    <string name="addChild">Add Child Department</string>
+    <string name="Disable">Disable</string>
+    <string name="Enable">Enable</string>
+    <string name="autoLogin">Auto Login</string>
+    <string name="logged">You have already logged in to CrewCloud service.\nWould you log in as the above account?</string>
+    <string name="loginActivity_organizationID_v2">Group ID</string>
+    <string name="inputDepartmentName">Input department name please</string>
+    <string name="stopDepts">Include Stopped Depts</string>
+    <string name="stopUser">Include Stopped User</string>
+    <string name="Loading">Loading...</string>
+    <string name="id">ID</string>
+    <string name="reenterpass">Reenter Password</string>
+    <string name="name">Name</string>
+    <string name="nameEN">Name (EngLish)</string>
+    <string name="eMail">eMail Address</string>
+    <string name="sex">Sex</string>
+    <string name="cellPhone">Cell Phone</string>
+    <string name="companyPhone">Company Phone</string>
+    <string name="extensionNo">Extension No</string>
+    <string name="dateHired">Date Hired</string>
+    <string name="birthday">Birthday</string>
+    <string name="timeZone">Time Zone</string>
+    <string name="ddepts">Ddept\'s Information</string>
+
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Etc</item>
+    </string-array>
+    <string name="update_user">Update User</string>
+
+    <string name="sure_enable">Are you sure Enable?</string>
+    <string name="sure_disable">Are you sure Disable?</string>
+    <string name="welcome_to_dday">Welcome to CrewDDay</string>
+    <string name="click_to_add">Click to add new DDay</string>
+    <string name="login_username">Personal ID</string><string name="login_empty_input">cannot be empty</string>
+    <string name="connection_falsed">Can not connect the above address </string>
+    <string name="login_password">Password</string>
+    <string name="change_pass">Change</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_dday">About DDay</string>
+    <string name="confirm">Confirm</string>
+    <string name="user_version">User Version</string>
+    <string name="crewchat_version">DDay Version</string>
+
+</resources>

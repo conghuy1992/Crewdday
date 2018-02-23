@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listLongTouch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:id="@+id/frEnable"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/tvEnable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Enable"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/font_actionbar" />
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="/"
+            android:textSize="@dimen/font_actionbar" />
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/frDisable"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/tvDisable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Disable"
+                android:textSize="@dimen/font_actionbar" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

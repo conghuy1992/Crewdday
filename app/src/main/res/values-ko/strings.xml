@@ -1,0 +1,572 @@
+<resources>
+    <string name="app_name">크루디데이</string>
+
+    <string name="message_network_checking">네트워크 연결을 확인하시기 바랍니다.</string>
+    <string name="message_network_unstable">네트워크 상태가 불안정합니다.</string>
+    <string name="text_try_again">다시 시도</string>
+
+    <string name="navigation_drawer_open">네비케이션 열기</string>
+    <string name="navigation_drawer_close">네비케이션 닫기</string>
+    <string name="no_network_error">서버에 접속 못 했습니다.</string>
+    <string name="have_no_id_string"> 아이디는 ‘단체ID’와 ‘개인ID’의 두 가지가 있습니다.\n
+‘단체ID’는 회사 혹은 팀 ID를 말하며  아래처럼 이미 만들어져 있는 경우와
+그렇지 않은 경우로 나뉩니다.\n
+
+1. 귀하의 단체(회사 혹은 팀)이 이미 크루클라우드에 만들어져 있는경우\n
+귀하의 단체의 누군가(이 사람을 ‘관리자’라 부릅니다)가 이미 크루클라우드(www.crewcloud.net)에서
+귀하의 단체(회사 혹은 팀)을 이미 만들어 놨다면
+관리자에게 귀하의 개인ID를 생성하여 알려달라고 하거나
+귀하가 직접 ID를 생성할 수 있도록 가입메일을 보내달라고 요청하십시요\n
+
+2. 귀하의 단체(회사 혹은 팀)이 아직 만들어져 있지 않은 경우\n
+귀하의 단체가  크루클라우드(www.crewcloud.net)에  만들어져 있지 않은 경우는
+크루클라우드 웹사이트를 접속하여 단체을 구성하고 ‘단체ID’를 발급받아야 합니다.\n
+그리고 귀하 조직의 크루클라우드 사이트(단체ID.crewcloud.net)에 접속하여 관리자메뉴에서
+단체의 멤버들의 ID와 비밀번호를 미리 등록하여 가입시켜 주든지
+‘가입메일’을 보내 조직멤버들이 직접 가입할 수 있도록 해야 합니다. </string>
+    <string name="forgot_pass_back_btn_text">뒤로가기</string>
+    <string name="have_no_id"> 아이디 없는 경우  </string>
+    <string name="help_text">도음말</string>
+    <!-- LoginActivity -->
+    <string name="loginActivity_help">도움말</string>
+    <string name="loginActivity_logIn">로그인</string>
+    <string name="loginActivity_password">비밀번호</string>
+    <string name="loginActivity_userName">개인 아이디</string>
+    <string name="loginActivity_organizationID">단체(회사) 아이디</string>
+
+    <string name="loginActivity_message_organizationId">단체(회사) 아이디를 입력해주세요.</string>
+    <string name="loginActivity_message_userName">개인 아이디를 입력해주세요.</string>
+    <string name="loginActivity_message_password">비밀번호를 입력해주세요.</string>
+
+    <!-- HomeActivity -->
+    <string name="share_dday_show">공유 디데이 표시</string>
+    <string name="no_data">데이터가 없습니다</string>
+
+    <!-- DDayActivity-->
+    <string name="special_day">특정일</string>
+    <string name="annualy">매년</string>
+    <string name="lunar">음력</string>
+    <string name="all">전체</string>
+    <string name="dday_minus">D-Day</string>
+    <string name="dday_plus">D+Day</string>
+    <string name="enter_title">제목을 입력해주세요</string>
+    <string name="enter_content">내용을 입력해주세요</string>
+    <string name="sharer">공유</string>
+    <string name="personal_concerned">관련자</string>
+    <string name="co_administrator">공동관리자</string>
+    <string name="title_activity_content">디데이 내용보기</string>
+    <string name="edit">수정</string>
+    <string name="delete">삭제</string>
+
+
+    <!-- DetailViewActivity-->
+
+    <string name="repeat">반복</string>
+    <string name="norepeat">반복없이</string>
+    <string name="writer">작성자</string>
+
+
+    <string-array name="tag_background_color">
+        <item>#ffffff</item>
+        <item>#fb8f91</item>
+        <item>#fda365</item>
+        <item>#fcea3f</item>
+        <item>#32df34</item>
+        <item>#5fb0fd</item>
+        <item>#d67eff</item>
+        <item>#9fdcc9</item>
+        <item>#c6d2b0</item>
+        <item>#daaec2</item>
+        <item>#dad9dc</item>
+        <item>#6b7994</item>
+        <item>#bfbfbf</item>
+        <item>#4f4f4f</item>
+        <item>#c11a25</item>
+        <item>#e2620d</item>
+        <item>#c79930</item>
+        <item>#b9b300</item>
+        <item>#368f2b</item>
+        <item>#329b7a</item>
+        <item>#778b45</item>
+        <item>#0eacbf</item>
+        <item>#6e53b4</item>
+        <item>#6b8082</item>
+        <item>#06dbe3</item>
+        <item>#0611e3</item>
+        <item>#f000ff</item>
+        <item>#ad80ff</item>
+        <item>#b0601a</item>
+        <item>#7dde00</item>
+    </string-array>
+
+
+    <string-array name="tag_border_color">
+        <item>#000000</item>
+        <item>#e36e73</item>
+        <item>#de6227</item>
+        <item>#dfca25</item>
+        <item>#21bd18</item>
+        <item>#398dde</item>
+        <item>#aa4ede</item>
+        <item>#2c7e65</item>
+        <item>#697945</item>
+        <item>#813d5f</item>
+        <item>#455677</item>
+        <item>#2f394d</item>
+        <item>#4f4f4f</item>
+        <item>#000000</item>
+        <item>#661217</item>
+        <item>#662e08</item>
+        <item>#664901</item>
+        <item>#7a7a1d</item>
+        <item>#2c6625</item>
+        <item>#266652</item>
+        <item>#434d29</item>
+        <item>#096a76</item>
+        <item>#3d2972</item>
+        <item>#395052</item>
+        <item>#078d92</item>
+        <item>#060d90</item>
+        <item>#aa06b4</item>
+        <item>#6533c0</item>
+        <item>#854208</item>
+        <item>#5ba001</item>
+    </string-array>
+
+
+    <string-array name="tag_icon_array">
+        <item>tag_icon_01</item>
+        <item>tag_icon_02</item>
+        <item>tag_icon_03</item>
+        <item>tag_icon_04</item>
+        <item>tag_icon_05</item>
+        <item>tag_icon_06</item>
+        <item>tag_icon_07</item>
+        <item>tag_icon_08</item>
+        <item>tag_icon_09</item>
+        <item>tag_icon_10</item>
+        <item>tag_icon_11</item>
+        <item>tag_icon_12</item>
+        <item>tag_icon_13</item>
+        <item>tag_icon_14</item>
+        <item>tag_icon_15</item>
+        <item>tag_icon_16</item>
+        <item>tag_icon_17</item>
+        <item>tag_icon_18</item>
+        <item>tag_icon_19</item>
+        <item>tag_icon_20</item>
+        <item>tag_icon_21</item>
+        <item>tag_icon_22</item>
+        <item>tag_icon_23</item>
+        <item>tag_icon_24</item>
+        <item>tag_icon_25</item>
+        <item>tag_icon_26</item>
+        <item>tag_icon_27</item>
+        <item>tag_icon_28</item>
+        <item>tag_icon_29</item>
+        <item>tag_icon_30</item>
+    </string-array>
+
+
+    <!-- Daily -->
+
+    <string-array name="daily_interval_array">
+        <item>매일</item>
+        <item>2일마다</item>
+        <item>3일마다</item>
+        <item>4일마다</item>
+        <item>5일마다</item>
+        <item>6일마다</item>
+        <item>7일마다</item>
+        <item>8일마다</item>
+        <item>9일마다</item>
+        <item>10일마다</item>
+        <item>11일마다</item>
+        <item>12일마다</item>
+        <item>13일마다</item>
+        <item>14일마다</item>
+        <item>15일마다</item>
+        <item>16일마다</item>
+        <item>17일마다</item>
+        <item>18일마다</item>
+        <item>19일마다</item>
+        <item>20일마다</item>
+        <item>21일마다</item>
+        <item>22일마다</item>
+        <item>23일마다</item>
+        <item>24일마다</item>
+        <item>25일마다</item>
+        <item>26일마다</item>
+        <item>27일마다</item>
+        <item>28일마다</item>
+        <item>29일마다</item>
+        <item>30일마다</item>
+        <item>31일마다</item>
+        <item>100일마다</item>
+        <item>1000일마다</item>
+    </string-array>
+
+
+    <!-- Weekly -->
+
+
+    <string-array name="weekly_interval_array">
+        <item>매주</item>
+        <item>2주마다</item>
+        <item>3주마다</item>
+        <item>4주마다</item>
+        <item>5주마다</item>
+        <item>6주마다</item>
+        <item>7주마다</item>
+        <item>8주마다</item>
+        <item>9주마다</item>
+        <item>10주마다</item>
+        <item>11주마다</item>
+        <item>12주마다</item>
+        <item>13주마다</item>
+        <item>14주마다</item>
+        <item>15주마다</item>
+        <item>16주마다</item>
+        <item>17주마다</item>
+        <item>18주마다</item>
+        <item>19주마다</item>
+        <item>20주마다</item>
+        <item>21주마다</item>
+        <item>22주마다</item>
+        <item>23주마다</item>
+        <item>24주마다</item>
+        <item>25주마다</item>
+        <item>26주마다</item>
+        <item>27주마다</item>
+        <item>28주마다</item>
+        <item>29주마다</item>
+        <item>30주마다</item>
+        <item>31주마다</item>
+        <item>32주마다</item>
+        <item>33주마다</item>
+        <item>34주마다</item>
+        <item>35주마다</item>
+        <item>36주마다</item>
+        <item>37주마다</item>
+        <item>38주마다</item>
+        <item>39주마다</item>
+        <item>40주마다</item>
+        <item>41주마다</item>
+        <item>42주마다</item>
+        <item>43주마다</item>
+        <item>44주마다</item>
+        <item>45주마다</item>
+        <item>46주마다</item>
+        <item>47주마다</item>
+        <item>48주마다</item>
+        <item>49주마다</item>
+        <item>50주마다</item>
+        <item>51주마다</item>
+        <item>52주마다</item>
+        <item>53주마다</item>
+    </string-array>
+
+
+    <!-- Monthly -->
+
+
+    <string-array name="monthly_interval_array">
+        <item>매월</item>
+        <item>2개월마다</item>
+        <item>3개월마다</item>
+        <item>4개월마다</item>
+        <item>5개월마다</item>
+        <item>6개월마다</item>
+        <item>7개월마다</item>
+        <item>8개월마다</item>
+        <item>9개월마다</item>
+        <item>10개월마다</item>
+        <item>11개월마다</item>
+    </string-array>
+    <string-array name="monthly_date_array">
+        <item>01일</item>
+        <item>02일</item>
+        <item>03일</item>
+        <item>04일</item>
+        <item>05일</item>
+        <item>06일</item>
+        <item>07일</item>
+        <item>08일</item>
+        <item>09일</item>
+        <item>10일</item>
+        <item>11일</item>
+        <item>12일</item>
+        <item>13일</item>
+        <item>14일</item>
+        <item>15일</item>
+        <item>16일</item>
+        <item>17일</item>
+        <item>18일</item>
+        <item>19일</item>
+        <item>20일</item>
+        <item>21일</item>
+        <item>22일</item>
+        <item>23일</item>
+        <item>24일</item>
+        <item>25일</item>
+        <item>26일</item>
+        <item>27일</item>
+        <item>28일</item>
+        <item>29일</item>
+        <item>30일</item>
+        <item>31일</item>
+        <item>말일</item>
+    </string-array>
+    <string-array name="monthly_week_array">
+        <item>매주</item>
+        <item>첫번째주</item>
+        <item>두번째주</item>
+        <item>세번째주</item>
+        <item>네번째주</item>
+        <item>다섯번째주</item>
+        <item>마지막주</item>
+    </string-array>
+    <string-array name="monthly_day_array">
+        <item>일요일</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </string-array>
+
+
+    <!-- 					Annually 					-->
+
+
+    <string-array name="annually_interval_array">
+        <item>매년</item>
+        <item>2년마다</item>
+        <item>3년마다</item>
+        <item>4년마다</item>
+        <item>5년마다</item>
+    </string-array>
+
+    <string-array name="annually_month_array">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <string-array name="annually_calendar_type_array">
+        <item>양력</item>
+        <item>음력</item>
+        <item>윤달</item>
+    </string-array>
+    <string name="add_dday">디데이 추가</string>
+    <string name="update_dday">디데이 업데이트</string>
+    <string name="cancel">취소</string>
+
+    <string name="select">반복형 선택하세요.</string>
+    <string name="frequency">반복</string>
+
+    <string name="option">추가옵션</string>
+    <string name="holiday">휴일인 경우</string>
+    <string-array name="daily_option">
+        <item>없음</item>
+        <item>년단위 반복</item>
+        <item>월단위 반복</item>
+        <item>주단위 반복</item>
+    </string-array>
+    <string-array name="daily_holiday">
+        <item>당일</item>
+        <item>이전날</item>
+        <item>다음날</item>
+        <item>생략</item>
+    </string-array>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="sun">일</string>
+
+    <string name="monday">월요일</string>
+    <string name="tuesday">화요일</string>
+    <string name="wednesday">수요일</string>
+    <string name="thursday">목요일</string>
+    <string name="friday">금요일</string>
+    <string name="saturday">토요일</string>
+    <string name="sunday">일요일</string>
+    <string name="sure_delete">이 디데이를 삭제하시겠습니까?</string>
+    <string name="Dday">디데이</string>
+    <string name="PERSONAL_ID">사용자 아이디</string>
+    <string name="EMAIL">이메일</string>
+    <string name="COMPANY_NAME">단체 이름</string>
+    <string name="make_complete">완료처리</string>
+    <string name="edit_comment_notify">저장하시겠습니까?</string>
+    <string name="typesomething">처리 사유 입력은 필수입니다</string>
+    <string name="Confirm">확인</string>
+    <string name="notify_chooseday">이 날짜가 존재했습니다. 다른 날짜로 선택해주세요</string>
+    <string name="Solar">양력</string>
+    <string name="Leaf">윤달</string>
+    <string name="detail_ic_ask">체크박스에 체크하면 이 디데이를 삭제할 수 없도록 설정합니다. 프로젝트 디데이 같은 경우 사용할 수 있습니다.</string>
+    <string name="hide">디데이 숨기기 </string>
+    <string-array name="array_notify">
+        <item>알림 없음</item>
+        <item>당일</item>
+        <item>이전날</item>
+    </string-array>
+    <string-array name="array_notify_2">
+        <item>당일</item>
+        <item>이전날</item>
+    </string-array>
+    <string name="profle">내정보</string>
+    <string name="Generalsettings">일반설정</string>
+    <string name="notify_setting">알림설정</string>
+    <string name="logout">로그아웃</string>
+    <string name="setting">설정</string>
+    <string name="getnotify">알림</string>
+    <string name="noti_method">알림타입</string>
+    <string name="sound">벨소리</string>
+    <string name="vibrate">진동</string>
+    <string name="notifi_time">알림 시간</string>
+    <string name="showmore">옵션 추가</string>
+    <string name="Allow">공유디데이 제거 못하게 함</string>
+    <string name="selectgroup">그룹 선택</string>
+    <string name="nosharer">없음</string>
+    <string name="hidec">목록에서 제거</string>
+    <string name="editc">수정</string>
+    <string name="permiss">이 내용에 대하여 수정 권한이 없습니다.</string>
+    <string name="wanthide">이 디데이를 목록에서 제거하시겠습니까?</string>
+    <string name="updatesuccess">데이터 업데이트 완료했습니다.</string>
+    <string name="uncomp">복원</string>
+    <string name="dis_remove">제거된 디데이 표시</string>
+    <string name="dis_share">공유 디데이 표시</string>
+    <string name="movehid">선택한 디데이를 목록에서 제거하시겠습니까?</string>
+    <string name="asklogout">로그아웃 하시겠습니까?</string>
+    <string name="unhide">복원</string>
+    <string name="startend">시작일</string>
+    <string name="end">종료일</string>
+    <string name="ok">확인</string>
+    <string name="ok2">확인</string>
+    <string name="Undefined">미분류</string>
+    <string name="noconcerned">없음</string>
+    <string name="noadmin">없음</string>
+    <string name="string_sign_up">새로운 단체(회사) 생성</string>
+    <string name="sign_up_suggest">단체(회사) 아이디가 아직 없으신가요?</string>
+    <string name="sign_up_note">입력하신 메일 주소로 크루클라우드에 단체(회사) 생성을 할 수 있는 링크를 보내 드리겠습니다.</string>
+    <string name="sign_up_note2">메일 주소를 입력해주세요.</string>
+    <string name="enter_your_email">메일 주소</string>
+    <string name="register">발송</string>
+    <string name="title_sign_up_screen">단체(회사) 생성</string>
+    <string name="invalid">데이터 맞지 않습니다</string>
+    <string name="menu_daily">일간</string>
+    <string name="menu_week">주간</string>
+    <string name="menu_month">월간</string>
+    <string name="myself">본인 </string>
+    <string name="Ascending">오름차순</string>
+    <string name="Descending">내림차순</string>
+    <string name="newgr">New</string>
+    <string name="string_done">완료</string>
+    <string name="wc_1_intro">크루디데이</string>
+    <string name="wc_1_title">크루클라우드의 모듈인 크루디데이 를 설치해 주셔서 감사합니다.</string>
+    <string name="wc_1_content">크루디데이 는 단체(회사)용 디데이 앱으로써 조직원들간에 업무용 디데이를 공유하여 업무효율을 높힐 수 있는 앱입니다.</string>
+    <string name="wc_2_intro">특징</string>
+    <string name="wc_2_content">일간, 주간, 월간, 년간 반복기능 </string>
+    <string name="wc_2_content_2">양력, 음력, 윤달 반복기능</string>
+    <string name="wc_2_content_3">일간, 주간, 월간, 년간 반복 디데이 혼합기능</string>
+    <string name="wc_2_content_4">조직원간에 공유기능</string>
+    <string name="wc_2_content_5">디데이 공동관리자 설정기능</string>
+    <string name="wc_2_content_6">디데이 관련자 설정기능</string>
+    <string name="wc_2_content_7">완료처리기능(프로젝트용)</string>
+    <string name="wc_2_content_8">다양한 알림방식과 복수 알림 설정기능</string>
+    <string name="wc_3_intro">활용분야</string>
+    <string name="wc_3_content">크루디데이 는 조직원간에 디데이가 공유되는 장점때문에 다음과 같이 단체(회사)나 개인 용도로 다양하게 활용할 수 있습니다.\n- 프로젝트 디데이 관리\n- 수금/출금 디데이 관리\n- 세금납부 일자 관리\n- 각종 보험일자 관리\n- 행사 디데이 공유\n- 사내 모든 경조사 디데이 공유</string>
+    <string name="wc_4_intro">공휴일관리</string>
+    <string name="wc_4_content">대한민국의 공휴일 제도 뿐 아니라 다른 나라의 공휴일도 설정가능합니다.</string>
+    <string name="wc_4_content_2">개인이나 조직별로 공휴일을 설정할 수 있어서 해외지사등에서의 활용도 문제 없습니다.</string>
+    <string name="wc_4_content_3">대체공휴일 설정이 가능합니다.</string>
+    <string name="wc_4_content_4">대체 근무일 설정이 가능합니다.</string>
+    <string name="wc_4_content_5">음력공휴일 설정이 가능합니다.</string>
+    <string name="wc_4_content_6">모든 공휴일은 반복설정 가능합니다.</string>
+    <string name="wc_5_intro">도입효과</string>
+    <string name="wc_5_content">직원들과 서로의 경조사를 공유하여 일체감을 높힐 수 있습니다</string>
+    <string name="wc_5_content_2">프로젝트등 각종 중요한 업무를 공유하여 협업하므로써 업무효율을 한층 높힐 것입니다.</string>
+    <string name="wc_6_text1">크루디데이는 단체(회사)용 포탈시스템인\n크루클라우드의 일부 모듈입니다</string>
+    <string name="wc_6_text2">따라서 단체(회사) 아이디가 필요하고 조직원들을 가입시켜 조직도 구성을 해야 합니다.\n아직 단체(회사)아이디가 없으시면 아래를 클릭하여 가입하십시오.
+</string>
+    <string name="wc_6_text3">가입하기</string>
+    <string name="chooseone">한 명만 선택할 수 있습니다.</string>
+    <string name="changegroup">그룹변경</string>
+    <string name="startPlus">시작일</string>
+    <string name="del_group_y">예</string>
+    <string name="del_group_n">아니요</string>
+    <string name="del_group_q">이 그룹을 삭제하시겠습니까?</string>
+    <string name="groupname">그룹 이름</string>
+    <string name="save">저장</string>
+    <string name="typegr">그룹 이름 입력해주세요...</string>
+    <string name="typeip">그룹 이름 입력해주세요</string>
+    <string name="addGroup">그룹 추가</string>
+    <string name="inputpls">제목을 입력해주세요</string>
+    <string name="managementtools">Management Tools</string>
+    <string name="addDepartment">Add Top Department</string>
+    <string name="editName">Edit Name</string>
+    <string name="addUser">Add User</string>
+    <string name="addChild">Add Child Department</string>
+    <string name="Disable">Disable</string>
+    <string name="Enable">Enable</string>
+    <string name="autoLogin">자동 로그인</string>
+    <string name="logged">이미 크루클라우드 서비스에 로그인중이십니다.\n위 계정으로 로그인하시겠습니까?</string>
+    <string name="loginActivity_organizationID_v2">단체 아이디</string>
+    <string name="inputDepartmentName">Input department name please</string>
+    <string name="stopDepts">Include Stopped Depts</string>
+    <string name="stopUser">Include Stopped User</string>
+    <string name="Loading">Loading...</string>
+    <string name="id">ID</string>
+    <string name="reenterpass">Reenter Password</string>
+    <string name="name">Name</string>
+    <string name="nameEN">Name (EngLish)</string>
+    <string name="eMail">eMail Address</string>
+    <string name="sex">Sex</string>
+    <string name="cellPhone">Cell Phone</string>
+    <string name="companyPhone">Company Phone</string>
+    <string name="extensionNo">Extension No</string>
+    <string name="dateHired">Date Hired</string>
+    <string name="birthday">Birthday</string>
+    <string name="timeZone">Time Zone</string>
+    <string name="ddepts">Ddept\'s Information</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Etc</item>
+    </string-array>
+    <string name="vertical_ellipsis">⋮</string>
+    <string name="phonenumber"> 전화 번호</string>
+
+    <string name="update_user">Update User</string>
+
+    <string name="sure_enable">Are you sure Enable?</string>
+    <string name="sure_disable">Are you sure Disable?</string>
+    <string name="welcome_to_dday">Welcome to CrewDDay</string>
+    <string name="click_to_add">Click to add new DDay</string>
+    <string name="login_username">개인 아이디</string>
+    <string name="login_empty_input">입력하세요.</string>
+    <string name="connection_falsed">위 주소로 접속할 수 없습니다. </string>
+    <string name="login_password">비밀번호</string>
+    <string name="change_pass">Change</string>
+    <string name="old_pass">현재 비밀번호</string>
+    <string name="new_pass">새 비밀번호</string>
+    <string name="confirm_pass">비밀번호 확인</string>
+    <string name="change_password">비밀번호 변경</string>
+    <string name="about_dday">About DDay</string>
+    <string name="confirm">Confirm</string>
+    <string name="user_version">User Version</string>
+    <string name="crewchat_version">DDay Version</string>
+</resources>

@@ -1,0 +1,575 @@
+<resources>
+    <string name="app_name">CrewDDay</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="message_network_checking">请确认网络连接状态</string>
+    <string name="message_network_unstable">网络状态不稳定</string>
+    <string name="text_try_again">重新尝试</string>
+    <string name="phonenumber">电话号码</string>
+    <string name="navigation_drawer_open">开启导航</string>
+    <string name="navigation_drawer_close">关闭导航</string>
+    <string name="no_network_error">为连接到服务器</string>
+
+    <string name="have_no_id_string"> There are two kinds of ID, organization ID and Personal ID.
+The organization ID means the company ID or the team ID ,
+and it might have been issued or not in the CrewCloud site as bellow.\n
+
+1. In case that the organization ID  has issued already.\n
+If someone(we call him ‘site manager’) of your company or team has composed your organization already
+In the CrewCloud website, www.crewcloud.net , then you just need to ask your site manager for your ID to be created
+or ask him or her to send the the ‘request mail for registration’ so as to register your ID by yourself.\n
+
+2. In case that the organization ID  has not issued yet.\n
+In this case, Someone(we call him ‘site manager’) of your company or team needs to connect
+the CrewCloud website, www.crewcloud.net , compose your organization(company or team) first
+and then register your members in advance or send your members  the ‘request mail for registration’
+so as that the members register by themselves </string>
+    <string name="forgot_pass_back_btn_text">后退</string>
+    <string name="help_text">提示</string>
+    <!-- LoginActivity -->
+    <string name="loginActivity_help">提示</string>
+    <string name="loginActivity_logIn">登录</string>
+    <string name="loginActivity_password">密码</string>
+    <string name="loginActivity_userName">个人用户名</string>
+    <string name="loginActivity_organizationID">群（公司）用户名</string>
+    <string name="have_no_id">无用户名的情况</string>
+
+    <string name="loginActivity_message_organizationId">请输入群（公司）用户名</string>
+    <string name="loginActivity_message_userName">请输入个人用户名</string>
+    <string name="loginActivity_message_password">请输入密码</string>
+
+    <!-- HomeActivity -->
+    <string name="share_dday_show">标识共享开始日</string>
+    <string name="no_data">无数据</string>
+
+    <!-- DDayActivity-->
+    <string name="special_day">特定日</string>
+    <string name="annualy">每年</string>
+    <string name="lunar">农历</string>
+    <string name="all">全体</string>
+    <string name="dday_minus">D-Day</string>
+    <string name="dday_plus">D+Day</string>
+    <string name="enter_title">请输入题目</string>
+    <string name="enter_content">请输入小组名称…</string>
+    <string name="sharer">共享</string>
+    <string name="nosharer">无</string>
+    <string name="personal_concerned">关联者</string>
+    <string name="co_administrator">共同管理者</string>
+    <string name="title_activity_content">查看开始日内容</string>
+    <string name="edit">修正</string>
+    <string name="delete">删除</string>
+
+
+    <!-- DetailViewActivity-->
+
+    <string name="repeat">反复</string>
+    <string name="norepeat">无反复</string>
+    <string name="writer">制作者</string>
+
+
+    <string-array name="tag_background_color">
+        <item>#ffffff</item>
+        <item>#fb8f91</item>
+        <item>#fda365</item>
+        <item>#fcea3f</item>
+        <item>#32df34</item>
+        <item>#5fb0fd</item>
+        <item>#d67eff</item>
+        <item>#9fdcc9</item>
+        <item>#c6d2b0</item>
+        <item>#daaec2</item>
+        <item>#dad9dc</item>
+        <item>#6b7994</item>
+        <item>#bfbfbf</item>
+        <item>#4f4f4f</item>
+        <item>#c11a25</item>
+        <item>#e2620d</item>
+        <item>#c79930</item>
+        <item>#b9b300</item>
+        <item>#368f2b</item>
+        <item>#329b7a</item>
+        <item>#778b45</item>
+        <item>#0eacbf</item>
+        <item>#6e53b4</item>
+        <item>#6b8082</item>
+        <item>#06dbe3</item>
+        <item>#0611e3</item>
+        <item>#f000ff</item>
+        <item>#ad80ff</item>
+        <item>#b0601a</item>
+        <item>#7dde00</item>
+    </string-array>
+
+
+    <string-array name="tag_border_color">
+        <item>#000000</item>
+        <item>#e36e73</item>
+        <item>#de6227</item>
+        <item>#dfca25</item>
+        <item>#21bd18</item>
+        <item>#398dde</item>
+        <item>#aa4ede</item>
+        <item>#2c7e65</item>
+        <item>#697945</item>
+        <item>#813d5f</item>
+        <item>#455677</item>
+        <item>#2f394d</item>
+        <item>#4f4f4f</item>
+        <item>#000000</item>
+        <item>#661217</item>
+        <item>#662e08</item>
+        <item>#664901</item>
+        <item>#7a7a1d</item>
+        <item>#2c6625</item>
+        <item>#266652</item>
+        <item>#434d29</item>
+        <item>#096a76</item>
+        <item>#3d2972</item>
+        <item>#395052</item>
+        <item>#078d92</item>
+        <item>#060d90</item>
+        <item>#aa06b4</item>
+        <item>#6533c0</item>
+        <item>#854208</item>
+        <item>#5ba001</item>
+    </string-array>
+
+
+    <string-array name="tag_icon_array">
+        <item>tag_icon_01</item>
+        <item>tag_icon_02</item>
+        <item>tag_icon_03</item>
+        <item>tag_icon_04</item>
+        <item>tag_icon_05</item>
+        <item>tag_icon_06</item>
+        <item>tag_icon_07</item>
+        <item>tag_icon_08</item>
+        <item>tag_icon_09</item>
+        <item>tag_icon_10</item>
+        <item>tag_icon_11</item>
+        <item>tag_icon_12</item>
+        <item>tag_icon_13</item>
+        <item>tag_icon_14</item>
+        <item>tag_icon_15</item>
+        <item>tag_icon_16</item>
+        <item>tag_icon_17</item>
+        <item>tag_icon_18</item>
+        <item>tag_icon_19</item>
+        <item>tag_icon_20</item>
+        <item>tag_icon_21</item>
+        <item>tag_icon_22</item>
+        <item>tag_icon_23</item>
+        <item>tag_icon_24</item>
+        <item>tag_icon_25</item>
+        <item>tag_icon_26</item>
+        <item>tag_icon_27</item>
+        <item>tag_icon_28</item>
+        <item>tag_icon_29</item>
+        <item>tag_icon_30</item>
+    </string-array>
+
+
+    <!-- Daily -->
+
+    <string-array name="daily_interval_array">
+        <item>每日</item>
+        <item>隔2日</item>
+        <item>隔3日</item>
+        <item>每4天</item>
+        <item>每5天</item>
+        <item>每6天</item>
+        <item>每7天</item>
+        <item>每8天</item>
+        <item>每9天</item>
+        <item>每10天</item>
+        <item>每11天</item>
+        <item>每12天</item>
+        <item>每13天</item>
+        <item>每14天</item>
+        <item>每15天</item>
+        <item>每16天</item>
+        <item>每17天</item>
+        <item>每18天</item>
+        <item>每19天</item>
+        <item>每20天</item>
+        <item>每21天</item>
+        <item>每22天</item>
+        <item>每23天</item>
+        <item>每24天</item>
+        <item>每25天</item>
+        <item>每26天</item>
+        <item>每27天</item>
+        <item>每28天</item>
+        <item>每29天</item>
+        <item>每30天</item>
+        <item>每31天</item>
+        <item>每100天</item>
+        <item>每1000天</item>
+    </string-array>
+
+
+    <!-- Weekly -->
+
+
+    <string-array name="weekly_interval_array">
+        <item>每周</item>
+        <item>每2周</item>
+        <item>每3周</item>
+        <item>每4周</item>
+        <item>每5周</item>
+        <item>每6周</item>
+        <item>每7周</item>
+        <item>每8周</item>
+        <item>每9周</item>
+        <item>每10周</item>
+        <item>每11周</item>
+        <item>每12周</item>
+        <item>每13周</item>
+        <item>每14周</item>
+        <item>每15周</item>
+        <item>每16周</item>
+        <item>每17周</item>
+        <item>每18周</item>
+        <item>每19周</item>
+        <item>每20周</item>
+        <item>每21周</item>
+        <item>每22周</item>
+        <item>每23周</item>
+        <item>每24周</item>
+        <item>每25周</item>
+        <item>每26周</item>
+        <item>每27周</item>
+        <item>每28周</item>
+        <item>每29周</item>
+        <item>每30周</item>
+        <item>每31周</item>
+        <item>每32周</item>
+        <item>每33周</item>
+        <item>每34周</item>
+        <item>每35周</item>
+        <item>每36周</item>
+        <item>每37周</item>
+        <item>每38周</item>
+        <item>每39周</item>
+        <item>每40周</item>
+        <item>每41周</item>
+        <item>每42周</item>
+        <item>每43周</item>
+        <item>每44周</item>
+        <item>每45周</item>
+        <item>每46周</item>
+        <item>每47周</item>
+        <item>每48周</item>
+        <item>每49周</item>
+        <item>每50周</item>
+        <item>每51周</item>
+        <item>每52周</item>
+        <item>每53周</item>
+    </string-array>
+
+
+    <!-- Monthly -->
+
+
+    <string-array name="monthly_interval_array">
+        <item>每月</item>
+        <item>每2月</item>
+        <item>每3月</item>
+        <item>每4月</item>
+        <item>每5月</item>
+        <item>每6月</item>
+        <item>每7月</item>
+        <item>每8月</item>
+        <item>每9月</item>
+        <item>每10月</item>
+        <item>每11月</item>
+    </string-array>
+    <string-array name="monthly_date_array">
+        <item>01 日</item>
+        <item>02 日</item>
+        <item>03 日</item>
+        <item>04 日</item>
+        <item>05 日</item>
+        <item>06 日</item>
+        <item>07 日</item>
+        <item>08 日</item>
+        <item>09 日</item>
+        <item>10 日</item>
+        <item>11 日</item>
+        <item>12 日</item>
+        <item>13 日</item>
+        <item>14 日</item>
+        <item>15 日</item>
+        <item>16 日</item>
+        <item>17 日</item>
+        <item>18 日</item>
+        <item>19 日</item>
+        <item>20 日</item>
+        <item>21 日</item>
+        <item>22 日</item>
+        <item>23 日</item>
+        <item>24 日</item>
+        <item>25 日</item>
+        <item>26 日</item>
+        <item>27 日</item>
+        <item>28 日</item>
+        <item>29 日</item>
+        <item>30 日</item>
+        <item>31 日</item>
+        <item>末日</item>
+    </string-array>
+    <string-array name="monthly_week_array">
+        <item>每周</item>
+        <item>第一周</item>
+        <item>第二周</item>
+        <item>第三周</item>
+        <item>第四周</item>
+        <item>第五周</item>
+        <item>最后一周</item>
+    </string-array>
+    <string-array name="monthly_day_array">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+
+    <!-- 					Annually 					-->
+
+
+    <string-array name="annually_interval_array">
+        <item>每年</item>
+        <item>每2年</item>
+        <item>每3年</item>
+        <item>每4年</item>
+        <item>每5年</item>
+    </string-array>
+
+    <string-array name="annually_month_array">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string-array name="annually_calendar_type_array">
+        <item>阳历</item>
+        <item>阴历</item>
+        <item>闰月</item>
+    </string-array>
+    <string name="add_dday">增加开始日</string>
+    <string name="update_dday">更新开始日</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确认</string>
+    <string name="ok2">确认</string>
+    <string name="select">请选择反复型</string>
+    <string name="frequency">反复</string>
+    <string name="startend">开始日</string>
+    <string name="end">结束日</string>
+    <string name="option">增加选项</string>
+    <string name="holiday">休息的情况</string>
+    <string-array name="daily_option">
+        <item>没有</item>
+        <item>年单位反复</item>
+        <item>月单位反复</item>
+        <item>周单位反复</item>
+    </string-array>
+    <string-array name="daily_holiday">
+        <item>当日</item>
+        <item>前一天</item>
+        <item>明天</item>
+        <item>剩略</item>
+    </string-array>
+    <string name="mon">月</string>
+    <string name="tue">火</string>
+    <string name="wed">水</string>
+    <string name="thu">木</string>
+    <string name="fri">金</string>
+    <string name="sat">土</string>
+    <string name="sun">日</string>
+
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="sure_delete">要删除此开始日吗？</string>
+    <string name="Dday">开始日</string>
+    <string name="PERSONAL_ID">使用者用户名</string>
+    <string name="EMAIL">邮件</string>
+    <string name="COMPANY_NAME">群名称</string>
+    <string name="make_complete">完了处理</string>
+
+    <string name="edit_comment_notify">要取消变更的内容吗？</string>
+    <string name="typesomething">选择的内容要从目录内删除吗？</string>
+    <string name="Confirm">确认</string>
+    <string name="notify_chooseday">此日期存在.要选择其他日期吗？</string>
+
+    <string-array name="array_notify">
+        <item>没有 通报</item>
+        <item>当日</item>
+        <item>前一天</item>
+    </string-array>
+    <string-array name="array_notify_2">
+        <item>当日</item>
+        <item>前一天</item>
+    </string-array>
+    <string name="profle">我的信息</string>
+    <string name="Generalsettings">一般设定</string>
+    <string name="notify_setting">通知设定</string>
+    <string name="logout">登入</string>
+    <string name="setting">设定</string>
+    <string name="getnotify">通知</string>
+    <string name="noti_method">通知类型</string>
+    <string name="sound">铃声</string>
+    <string name="vibrate">震动</string>
+    <string name="notifi_time">通知时间</string>
+    <string name="Solar">阳历</string>
+    <string name="Leaf">闰月</string>
+    <string name="showmore">增加选项</string>
+    <string name="Allow">禁止删除共享开始日</string>
+    <string name="detail_ic_ask">在测试箱内测试的话此开始日无法删除。程序开始日的情况可使用</string>
+    <string name="selectgroup">选择小组</string>
+
+    <string name="hidec">从目录删除</string>
+    <string name="editc">更改</string>
+    <string name="permiss">此内容无修正权限</string>
+    <string name="hide">隐藏开始日</string>
+    <string name="wanthide">此开始日要从目录删除吗？</string>
+    <string name="updatesuccess">已更新完数据</string>
+    <string name="unhide">复原</string>
+    <string name="uncomp">复原</string>
+    <string name="dis_remove">标识删除的开始日</string>
+    <string name="dis_share">标识共享的开始日</string>
+    <string name="movehid">选择的内容要从目录内删除吗？</string>
+    <string name="asklogout">要登入吗？</string>
+    <string name="Undefined">未分类</string>
+    <string name="noconcerned">无</string>
+    <string name="noadmin">无</string>
+    <string name="string_sign_up">生成新的群（公司）</string>
+    <string name="sign_up_suggest">还没有群（公司）用户名吗？</string>
+    <string name="sign_up_note">CREW云盘团体（公司）生成的链接发送到输入的邮箱</string>
+    <string name="sign_up_note2">请输入邮箱地址</string>
+    <string name="enter_your_email">邮箱地址</string>
+    <string name="register">发送</string>
+    <string name="title_sign_up_screen">生成群（公司）</string>
+    <string name="invalid">数据错误</string>
+    <string name="menu_daily">日间</string>
+    <string name="menu_week">周间</string>
+    <string name="menu_month">月间</string>
+    <string name="myself">本人</string>
+    <string name="Ascending">递增排序</string>
+    <string name="Descending">递减排序</string>
+    <string name="newgr">New</string>
+    <string name="string_done">完成</string>
+    <string name="wc_1_intro">CREW开始日</string>
+    <string name="wc_1_title">非常感谢在CREW云模块设置CREW开始日。</string>
+    <string name="wc_1_content">CrewDday is for groups(companies)and it can increase their work performances  as  sharing the business  ddays with employees each other.</string>
+    <string name="wc_2_intro">特征</string>
+    <string name="wc_2_content">日间，周间，月间，年间 反复功能</string>
+    <string name="wc_2_content_2">阳历，农历，闰月 反复功能</string>
+    <string name="wc_2_content_3">日间，周间，月间，年间 反复开始日混合功能</string>
+    <string name="wc_2_content_4">组织员间共享功能</string>
+    <string name="wc_2_content_5">开始日共同管理者设定功能</string>
+    <string name="wc_2_content_6">开始日管理者设定功能</string>
+    <string name="wc_2_content_7">完成处理功能（程序用）</string>
+    <string name="wc_2_content_8">多样的通知方式和反复通知设定功能</string>
+    <string name="wc_3_intro">运用领域</string>
+    <string name="wc_3_content">
+      CrewDday, because of it’s DDay-sharing  advantages  with employees,  it can be applied in many fileds as below.\n
+- Project DDay\n
+- Collect bills/payments DDay\n
+- Tax/Insurances payment DDay\n
+- Company Event DDay\n
+- Employees’ individual event\n
+    </string>
+    <string name="wc_4_intro">公休日管理</string>
+    <string name="wc_4_content">不仅是大韩民国的公休日其他国家的公休日也可设定。</string>
+    <string name="wc_4_content_2">个人或组织别可设定公休日所以海外分公司使用也没有问题。</string>
+    <string name="wc_4_content_3">可以设定代替公休日</string>
+    <string name="wc_4_content_4">可以设定代替工作日</string>
+    <string name="wc_4_content_5">可以设定农历公休日</string>
+    <string name="wc_4_content_6">可以反复设定所有公休日</string>
+    <string name="wc_5_intro">导入效果</string>
+    <string name="wc_5_content">职员间共享红白喜事可提高整体感</string>
+    <string name="wc_5_content_2">通过共享和协作程序等各种重要的业务提高业务效率</string>
+    <string name="wc_6_text1">CREW开始日群（公司）用逃脱系统的\nCREW云的部分模块</string>
+    <string name="wc_6_text2">If you wan to see more about CrewCloud or CrewDDay, Then Pls don\'t hegitate to click the below link</string>
+    <string name="wc_6_text3">加入</string>
+    <string name="chooseone">只能选择一名</string>
+    <string name="changegroup">群变更</string>
+    <string name="startPlus">开始日</string>
+    <string name="del_group_y">是</string>
+    <string name="del_group_n">不是</string>
+    <string name="del_group_q">要删除此小组吗?</string>
+    <string name="groupname">小组名称</string>
+    <string name="save">保存</string>
+    <string name="typegr">请输入小组名称…</string>
+    <string name="typeip">请输入小组名称…</string>
+    <string name="addGroup">增加小组</string>
+    <string name="inputpls">请输入题目</string>
+    <string name="managementtools">Management Tools</string>
+    <string name="addDepartment">Add Top Department</string>
+    <string name="editName">Edit Name</string>
+    <string name="addUser">Add User</string>
+    <string name="addChild">Add Child Department</string>
+    <string name="Disable">Disable</string>
+    <string name="Enable">Enable</string>
+    <string name="autoLogin">自动登入</string>
+    <string name="logged">已登入到CREW云服务。.\n位账户进行登入吗？</string>
+    <string name="loginActivity_organizationID_v2">群用户名</string>
+    <string name="inputDepartmentName">Input department name please</string>
+    <string name="stopDepts">Include Stopped Depts</string>
+    <string name="stopUser">Include Stopped User</string>
+    <string name="Loading">Loading...</string>
+    <string name="id">ID</string>
+    <string name="reenterpass">Reenter Password</string>
+    <string name="name">Name</string>
+    <string name="nameEN">Name (EngLish)</string>
+    <string name="eMail">eMail Address</string>
+    <string name="sex">Sex</string>
+    <string name="cellPhone">Cell Phone</string>
+    <string name="companyPhone">Company Phone</string>
+    <string name="extensionNo">Extension No</string>
+    <string name="dateHired">Date Hired</string>
+    <string name="birthday">Birthday</string>
+    <string name="timeZone">Time Zone</string>
+    <string name="ddepts">Ddept\'s Information</string>
+
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Etc</item>
+    </string-array>
+    <string name="update_user">Update User</string>
+
+    <string name="sure_enable">Are you sure Enable?</string>
+    <string name="sure_disable">Are you sure Disable?</string>
+    <string name="welcome_to_dday">Welcome to CrewDDay</string>
+    <string name="click_to_add">Click to add new DDay</string>
+    <string name="login_username">个人用户名</string><string name="login_empty_input">请输入</string>
+    <string name="connection_falsed">以上地址无法连接</string>
+    <string name="login_password">Password</string>
+    <string name="change_pass">Change</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_dday">About DDay</string>
+    <string name="confirm">Confirm</string>
+    <string name="user_version">User Version</string>
+    <string name="crewchat_version">DDay Version</string>
+</resources>

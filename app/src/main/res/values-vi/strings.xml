@@ -1,0 +1,573 @@
+<resources>
+    <string name="app_name">CrewDDay</string>
+
+    <string name="message_network_checking">Vui lòng xem lại kết nối mạng.</string>
+    <string name="message_network_unstable">Trạng thái kết nối mạng không ổn định.</string>
+    <string name="text_try_again">Thử lại</string>
+
+    <string name="navigation_drawer_open">Mở navigation draw</string>
+    <string name="navigation_drawer_close">Đóng navigation draw</string>
+    <string name="no_network_error">Không thể kết nối được với server</string>
+    <string name="have_no_id_string"> Thường thì có 2 loại ID: “ID TỔ CHỨC” và “ID CÁ NHÂN”.\n
+“ID TỔ CHỨC”  là ID nhóm hoặc công ty đã được tạo sẳn  Và nếu như không vậy thì phân ra trường hợp
+ như ở phía dưới:\n
+
+1. Trường hợp Tổ chức của quý vị( Công ty, nhóm) đã tạo ID ở CrewCloud\n
+Ai đó thuộc tổ chức của quý vị(Tạm gọi người này là Quản lý) đã tạo ID trên CrewCloud
+ (www.crewcloud.net) cho tổ chức( Công ty nhóm) thì quý vị có thể yêu cầu quản lý tạo
+ ID cá nhân cho mình hoặc yêu cầu gửi “ Mail đăng ký” để tự mình đăng  ký ID cá nhân cho mình.\n
+
+2. Trường hợp Tổ chức của quý vị( Công ty, nhóm) chưa có ID ở CrewCloud\n
+Trường hợp tổ chức quý vị chưa có ID trên CrewCloud (www.crewcloud.net)  vui lòng truy cập  Website
+CrewCloud để tạo tổ chức và nhận “ID TỔ CHỨC”. Và tổ chức(công ty, nhóm) của quý vị truy cập
+ vào web site CrewCloud (tổ chức ID.crewcloud.net) ở menu quản lý thì tiếp tục đăng ký ID và Pass cho
+ các thành viên của tổ chức mình hoặc để các thành viên có thê đăng ký được tài khoản cá nhân cho mình
+ thì gửi “ Mail đang ký” đến các thành viên.
+  </string>
+    <string name="forgot_pass_back_btn_text">Trở lại Đăng nhập</string>
+    <string name="have_no_id"> Bạn chưa có UserID? </string>
+
+    <string name="help_text">Giúp đỡ</string>
+
+    <!-- LoginActivity -->
+    <string name="loginActivity_help">Trợ Giúp</string>
+    <string name="loginActivity_logIn">Đăng nhập</string>
+    <string name="loginActivity_password">Mật khẩu</string>
+    <string name="loginActivity_userName">Tên đăng nhập</string>
+    <string name="loginActivity_organizationID">ID Tổ chức(Công ty)</string>
+
+    <string name="loginActivity_message_organizationId">Vui lòng nhập ID tổ chức.</string>
+    <string name="loginActivity_message_userName">Vui lòng nhập ID người dùng.</string>
+    <string name="loginActivity_message_password">Vui lòng nhập mật khẩu.</string>
+
+    <!-- HomeActivity -->
+    <string name="share_dday_show">Hiển thị nội dung share</string>
+    <string name="no_data">Không có dữ liệu</string>
+
+    <!-- DDayActivity-->
+    <string name="special_day">Ngày chỉ định</string>
+    <string name="annualy">Hàng năm</string>
+    <string name="lunar">Âm lịch</string>
+    <string name="all">Tất cả</string>
+    <string name="dday_minus">D-Day</string>
+    <string name="dday_plus">D+Day</string>
+    <string name="enter_title">Vui lòng nhập tiêu đề</string>
+    <string name="enter_content">Vui lòng nhập nội dung</string>
+    <string name="sharer">Chia sẻ</string>
+    <string name="personal_concerned">Người liên quan</string>
+    <string name="co_administrator">Quản lý chung</string>
+    <string name="title_activity_content">Xem nội dung DDay</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="delete">Xóa</string>
+
+
+    <!-- DetailViewActivity-->
+
+    <string name="repeat">Lặp lại</string>
+    <string name="norepeat">Không lặp lại</string>
+    <string name="writer">Người viết</string>
+
+
+    <string-array name="tag_background_color">
+        <item>#ffffff</item>
+        <item>#fb8f91</item>
+        <item>#fda365</item>
+        <item>#fcea3f</item>
+        <item>#32df34</item>
+        <item>#5fb0fd</item>
+        <item>#d67eff</item>
+        <item>#9fdcc9</item>
+        <item>#c6d2b0</item>
+        <item>#daaec2</item>
+        <item>#dad9dc</item>
+        <item>#6b7994</item>
+        <item>#bfbfbf</item>
+        <item>#4f4f4f</item>
+        <item>#c11a25</item>
+        <item>#e2620d</item>
+        <item>#c79930</item>
+        <item>#b9b300</item>
+        <item>#368f2b</item>
+        <item>#329b7a</item>
+        <item>#778b45</item>
+        <item>#0eacbf</item>
+        <item>#6e53b4</item>
+        <item>#6b8082</item>
+        <item>#06dbe3</item>
+        <item>#0611e3</item>
+        <item>#f000ff</item>
+        <item>#ad80ff</item>
+        <item>#b0601a</item>
+        <item>#7dde00</item>
+    </string-array>
+
+
+    <string-array name="tag_border_color">
+        <item>#000000</item>
+        <item>#e36e73</item>
+        <item>#de6227</item>
+        <item>#dfca25</item>
+        <item>#21bd18</item>
+        <item>#398dde</item>
+        <item>#aa4ede</item>
+        <item>#2c7e65</item>
+        <item>#697945</item>
+        <item>#813d5f</item>
+        <item>#455677</item>
+        <item>#2f394d</item>
+        <item>#4f4f4f</item>
+        <item>#000000</item>
+        <item>#661217</item>
+        <item>#662e08</item>
+        <item>#664901</item>
+        <item>#7a7a1d</item>
+        <item>#2c6625</item>
+        <item>#266652</item>
+        <item>#434d29</item>
+        <item>#096a76</item>
+        <item>#3d2972</item>
+        <item>#395052</item>
+        <item>#078d92</item>
+        <item>#060d90</item>
+        <item>#aa06b4</item>
+        <item>#6533c0</item>
+        <item>#854208</item>
+        <item>#5ba001</item>
+    </string-array>
+
+
+    <string-array name="tag_icon_array">
+        <item>tag_icon_01</item>
+        <item>tag_icon_02</item>
+        <item>tag_icon_03</item>
+        <item>tag_icon_04</item>
+        <item>tag_icon_05</item>
+        <item>tag_icon_06</item>
+        <item>tag_icon_07</item>
+        <item>tag_icon_08</item>
+        <item>tag_icon_09</item>
+        <item>tag_icon_10</item>
+        <item>tag_icon_11</item>
+        <item>tag_icon_12</item>
+        <item>tag_icon_13</item>
+        <item>tag_icon_14</item>
+        <item>tag_icon_15</item>
+        <item>tag_icon_16</item>
+        <item>tag_icon_17</item>
+        <item>tag_icon_18</item>
+        <item>tag_icon_19</item>
+        <item>tag_icon_20</item>
+        <item>tag_icon_21</item>
+        <item>tag_icon_22</item>
+        <item>tag_icon_23</item>
+        <item>tag_icon_24</item>
+        <item>tag_icon_25</item>
+        <item>tag_icon_26</item>
+        <item>tag_icon_27</item>
+        <item>tag_icon_28</item>
+        <item>tag_icon_29</item>
+        <item>tag_icon_30</item>
+    </string-array>
+
+
+    <!-- Daily -->
+
+    <string-array name="daily_interval_array">
+        <item>Hàng ngày</item>
+        <item>Cứ 2 ngày</item>
+        <item>Cứ 3 ngày</item>
+        <item>Cứ 4 ngày</item>
+        <item>Cứ 5 ngày</item>
+        <item>Cứ 6 ngày</item>
+        <item>Cứ 7 ngày</item>
+        <item>Cứ 8 ngày</item>
+        <item>Cứ 9 ngày</item>
+        <item>Cứ 10 ngày</item>
+        <item>Cứ 11 ngày</item>
+        <item>Cứ 12 ngày</item>
+        <item>Cứ 13 ngày</item>
+        <item>Cứ 14 ngày</item>
+        <item>Cứ 15 ngày</item>
+        <item>Cứ 16 ngày</item>
+        <item>Cứ 17 ngày</item>
+        <item>Cứ 18 ngày</item>
+        <item>Cứ 19 ngày</item>
+        <item>Cứ 20 ngày</item>
+        <item>Cứ 21 ngày</item>
+        <item>Cứ 22 ngày</item>
+        <item>Cứ 23 ngày</item>
+        <item>Cứ 24 ngày</item>
+        <item>Cứ 25 ngày</item>
+        <item>Cứ 26 ngày</item>
+        <item>Cứ 27 ngày</item>
+        <item>Cứ 28 ngày</item>
+        <item>Cứ 29 ngày</item>
+        <item>Cứ 30 ngày</item>
+        <item>Cứ 31 ngày</item>
+        <item>Cứ 100 ngày</item>
+        <item>Cứ 1000 ngày</item>
+    </string-array>
+
+
+    <!-- Weekly -->
+
+
+    <string-array name="weekly_interval_array">
+        <item>Hàng tuần</item>
+        <item>Mỗi 2 tuần</item>
+        <item>Mỗi 3 tuần</item>
+        <item>Mỗi 4 tuần</item>
+        <item>Mỗi 5 tuần</item>
+        <item>Mỗi 6 tuần</item>
+        <item>Mỗi 7 tuần</item>
+        <item>Mỗi 8 tuần</item>
+        <item>Mỗi 9 tuần</item>
+        <item>Mỗi 10 tuần</item>
+        <item>Mỗi 11 tuần</item>
+        <item>Mỗi 12 tuần</item>
+        <item>Mỗi 13 tuần</item>
+        <item>Mỗi 14 tuần</item>
+        <item>Mỗi 15 tuần</item>
+        <item>Mỗi 16 tuần</item>
+        <item>Mỗi 17 tuần</item>
+        <item>Mỗi 18 tuần</item>
+        <item>Mỗi 19 tuần</item>
+        <item>Mỗi 20 tuần</item>
+        <item>Mỗi 21 tuần</item>
+        <item>Mỗi 22 tuần</item>
+        <item>Mỗi 23 tuần</item>
+        <item>Mỗi 24 tuần</item>
+        <item>Mỗi 25 tuần</item>
+        <item>Mỗi 26 tuần</item>
+        <item>Mỗi 27 tuần</item>
+        <item>Mỗi 28 tuần</item>
+        <item>Mỗi 29 tuần</item>
+        <item>Mỗi 30 tuần</item>
+        <item>Mỗi 31 tuần</item>
+        <item>Mỗi 32 tuần</item>
+        <item>Mỗi 33 tuần</item>
+        <item>Mỗi 34 tuần</item>
+        <item>Mỗi 35 tuần</item>
+        <item>Mỗi 36 tuần</item>
+        <item>Mỗi 37 tuần</item>
+        <item>Mỗi 38 tuần</item>
+        <item>Mỗi 39 tuần</item>
+        <item>Mỗi 40 tuần</item>
+        <item>Mỗi 41 tuần</item>
+        <item>Mỗi 42 tuần</item>
+        <item>Mỗi 43 tuần</item>
+        <item>Mỗi 44 tuần</item>
+        <item>Mỗi 45 tuần</item>
+        <item>Mỗi 46 tuần</item>
+        <item>Mỗi 47 tuần</item>
+        <item>Mỗi 48 tuần</item>
+        <item>Mỗi 49 tuần</item>
+        <item>Mỗi 50 tuần</item>
+        <item>Mỗi 51 tuần</item>
+        <item>Mỗi 52 tuần</item>
+        <item>Mỗi 53 tuần</item>
+    </string-array>
+
+
+    <!-- Monthly -->
+
+
+    <string-array name="monthly_interval_array">
+        <item>Hàng tháng</item>
+        <item>Mỗi 2 tháng</item>
+        <item>Mỗi 3 tháng</item>
+        <item>Mỗi 4 tháng</item>
+        <item>Mỗi 5 tháng</item>
+        <item>Mỗi 6 tháng</item>
+        <item>Mỗi 7 tháng</item>
+        <item>Mỗi 8 tháng</item>
+        <item>Mỗi 9 tháng</item>
+        <item>Mỗi 10 tháng</item>
+        <item>Mỗi 11 tháng</item>
+    </string-array>
+    <string-array name="monthly_date_array">
+        <item>Ngày 01</item>
+        <item>Ngày 02</item>
+        <item>Ngày 03</item>
+        <item>Ngày 04</item>
+        <item>Ngày 05</item>
+        <item>Ngày 06</item>
+        <item>Ngày 07</item>
+        <item>Ngày 08</item>
+        <item>Ngày 09</item>
+        <item>Ngày 10</item>
+        <item>Ngày 11</item>
+        <item>Ngày 12</item>
+        <item>Ngày 13</item>
+        <item>Ngày 14</item>
+        <item>Ngày 15</item>
+        <item>Ngày 16</item>
+        <item>Ngày 17</item>
+        <item>Ngày 18</item>
+        <item>Ngày 19</item>
+        <item>Ngày 20</item>
+        <item>Ngày 22</item>
+        <item>Ngày 23</item>
+        <item>Ngày 24</item>
+        <item>Ngày 25</item>
+        <item>Ngày 26</item>
+        <item>Ngày 27</item>
+        <item>Ngày 28</item>
+        <item>Ngày 29</item>
+        <item>Ngày 30</item>
+        <item>Ngày 31</item>
+        <item>Ngày 32</item>
+        <item>Ngày cuối tháng</item>
+    </string-array>
+    <string-array name="monthly_week_array">
+        <item>Hàng tuần</item>
+        <item>Tuần thứ 1</item>
+        <item>Tuần thứ 2</item>
+        <item>Tuần thứ 3</item>
+        <item>Tuần thứ 4</item>
+        <item>Tuần thứ 5</item>
+        <item>Tuần thứ 6</item>
+    </string-array>
+    <string-array name="monthly_day_array">
+        <item>Chủ nhật</item>
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+    </string-array>
+
+
+    <!-- 					Annually 					-->
+
+
+    <string-array name="annually_interval_array">
+        <item>Hàng năm</item>
+        <item>Mỗi 2 năm</item>
+        <item>Mỗi 3 năm</item>
+        <item>Mỗi 4 năm</item>
+        <item>Mỗi 5 năm</item>
+    </string-array>
+
+    <string-array name="annually_month_array">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+    <string-array name="annually_calendar_type_array">
+        <item>Dương lịch</item>
+        <item>Âm lịch</item>
+        <item>Tháng nhuận</item>
+    </string-array>
+    <string name="add_dday">Thêm DDay</string>
+    <string name="update_dday">Update DDay</string>
+    <string name="cancel">Hủy</string>
+    <string name="ok">OK</string>
+    <string name="ok2">OK</string>
+    <string name="select">Vui lòng chọn dạng lặp lại.</string>
+    <string name="frequency">Lặp lại</string>
+    <string name="startend">Bắt đầu</string>
+    <string name="end">Kết thúc</string>
+    <string name="option">Tùy chọn</string>
+    <string name="holiday">Nếu ngày nghỉ</string>
+    <string-array name="daily_option">
+        <item>Không</item>
+        <item>Làm mới mỗi năm</item>
+        <item>Làm mới mỗi tháng</item>
+        <item>Làm mới mỗi tuần</item>
+    </string-array>
+    <string-array name="daily_holiday">
+        <item>Đúng ngày</item>
+        <item>Trước ngày</item>
+        <item>Ngày kế tiếp</item>
+        <item>Bỏ qua</item>
+    </string-array>
+    <string name="mon">T2</string>
+    <string name="tue">T3</string>
+    <string name="wed">T4</string>
+    <string name="thu">T5</string>
+    <string name="fri">T6</string>
+    <string name="sat">T7</string>
+    <string name="sun">CN</string>
+
+    <string name="monday">Thứ 2</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="wednesday">Thứ 4</string>
+    <string name="thursday">Thứ 5</string>
+    <string name="friday">Thứ 6</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="sunday">Chủ nhật</string>
+    <string name="sure_delete">Bạn chắc rằng muốn xóa?</string>
+    <string name="Dday">DDay</string>
+    <string name="PERSONAL_ID">ID người dùng</string>
+    <string name="EMAIL">Email</string>
+    <string name="COMPANY_NAME">ID Tổ chức</string>
+    <string name="make_complete">Xử lý hoàn thành</string>
+    <string name="edit_comment_notify">Bạn có muốn lưu?</string>
+    <string name="typesomething">Cần phải nhập nội dung hoàn thành</string>
+    <string name="Confirm">Xác nhận</string>
+    <string name="notify_chooseday">Ngày này đã tồn tại, vui lòng chọn ngày khác</string>
+    <string name="detail_ic_ask">Nếu click check box thì người nhận được nội dung DDay ko có quyền xóa nội dung này. Trường hợp áp dụng cho việc quản lý dự án, DDay quan trọng.</string>
+    <string-array name="array_notify">
+        <item>Không chọn</item>
+        <item>Đúng ngày</item>
+        <item>Trước 1 ngày</item>
+    </string-array>
+    <string-array name="array_notify_2">
+        <item>Đúng ngày</item>
+        <item>Trước 1 ngày</item>
+    </string-array>
+    <string name="profle">Thông tin của tôi</string>
+    <string name="Generalsettings">Cài đặt chung</string>
+    <string name="notify_setting">Thiết lập thông báo</string>
+    <string name="logout">Thoát</string>
+    <string name="setting">Cài đặt</string>
+    <string name="getnotify">Nhận thông báo thư mới</string>
+    <string name="noti_method">Phương pháp thông báo</string>
+    <string name="sound">Âm thanh</string>
+    <string name="vibrate">Rung</string>
+    <string name="notifi_time">Thời gian thông báo</string>
+    <string name="Solar">Dương lịch</string>
+    <string name="Leaf">Tháng nhuận</string>
+    <string name="showmore">Thêm tùy chọn</string>
+    <string name="Allow">Không được xóa khỏi danh sách</string>
+
+    <string name="selectgroup">Chọn nhóm</string>
+    <string name="nosharer">Không chia sẻ</string>
+    <string name="hidec">Xóa khỏi danh sách</string>
+    <string name="editc">Sửa DDay</string>
+    <string name="permiss">Bạn không có quyền sửa nội dung này</string>
+    <string name="hide">Ẩn</string>
+    <string name="wanthide">Bạn muốn ẩn nội dung này ?</string>
+    <string name="updatesuccess">Cập nhật dữ liệu thành công</string>
+    <string name="unhide">Phục hồi nội dung</string>
+    <string name="uncomp">Bỏ hoàn thành</string>
+    <string name="dis_remove">Hiển thị nội dung đã ẩn</string>
+    <string name="dis_share">Hiển thị nội dung chia sẻ</string>
+    <string name="movehid">Bạn có muốn xóa khỏi mục lục?</string>
+    <string name="asklogout">Bạn chắc rằng muốn thoát?</string>
+    <string name="Undefined">Không xác định</string>
+    <string name="noconcerned">Không có</string>
+    <string name="noadmin">Không có</string>
+    <string name="string_sign_up">Tạo tổ chức(công ty) mới</string>
+    <string name="sign_up_suggest">Bạn chưa có ID tổ chức(công ty)?</string>
+    <string name="sign_up_note">Chúng tôi sẽ gửi link để bạn có thể tạo cho mình một tổ chức(công ty) mới trên CrewCloud.</string>
+    <string name="sign_up_note2">Vui lòng nhập địa chỉ mail</string>
+    <string name="enter_your_email">Địa chỉ email</string>
+    <string name="register">Gửi</string>
+    <string name="title_sign_up_screen">Tạo tổ chức(công ty) mới</string>
+    <string name="invalid">Dữ liệu không hợp lệ</string>
+    <string name="menu_daily">Hàng ngày</string>
+    <string name="menu_week">Hàng tuần</string>
+    <string name="menu_month">Hàng tháng</string>
+    <string name="myself">Tôi</string>
+    <string name="Ascending">Tăng dần</string>
+    <string name="Descending">Giảm dần</string>
+    <string name="newgr">Mới</string>
+    <string name="string_done">Hoàn Thành</string>
+    <string name="wc_1_intro">CrewDday</string>
+    <string name="wc_1_title">Cảm ơn bạn đã cài đặt CrewDday một trong những modul của CrewCloud.</string>
+    <string name="wc_1_content">CrewDday là App dùng cho tổ chức(Công ty) để quản lý và chia sẻ công việc giữa các
+ nhân viên nhằm nâng cao hiệu suất công việc.</string>
+    <string name="wc_2_intro">Ưu điểm</string>
+    <string name="wc_2_content">Kỹ năng lặp lại theo ngày, tuần, tháng, năm </string>
+    <string name="wc_2_content_2">Kỹ năng lặp lại tháng nhuận, âm lịch, dương lịch</string>
+    <string name="wc_2_content_3">Lặp lại DDay theo ngày, tuần, tháng , năm</string>
+    <string name="wc_2_content_4">Kỹ năng chia sẻ giữa các nhân viên</string>
+    <string name="wc_2_content_5">Kỹ năng thiết lập người quản lý DDay</string>
+    <string name="wc_2_content_6">Kỹ năng thiết lập người liên quan DDay</string>
+    <string name="wc_2_content_7">Kỹ năng xử lý hoàn tất( Nội dung sẽ liên tục hiển thị thành ngày  quá hạn nếu người quản lý ko hoàn thành DDay)</string>
+    <string name="wc_2_content_8">Kỹ năng thông báo đa dạng và thiết lập được nhiều ngày thông báo</string>
+    <string name="wc_3_intro">Phạm vi áp dụng</string>
+    <string name="wc_3_content">Do ưu điểm có thể chia sẻ DDay giữa các nhân viên trong tổ chức(Công ty) nên có thể ứng dụng đa dạng DDay cho cá nhân.\n- Quản lý dự án\n- Quản lý DDay thu/chi cho kinh phí\n- Quản lý ngày nộp thuế\n- Quản lý các ngày nộp BHXH\n- Chia sẻ DDay ngày lễ\n- Chia sẻ các ngày lễ, nghỉ, chúc mừng,…</string>
+    <string name="wc_4_intro">Quản lý ngày nghỉ</string>
+    <string name="wc_4_content">Khả năng thiết lập ngày nghỉ, lễ, tết không chỉ riêng Hàn quốc mà cũng có thể thiết lập cho các quốc gia khác. </string>
+    <string name="wc_4_content_2">Có thể thiết lập ngày nghỉ , ngày lễ riêng rẽ cho từng bộ phận nên ko thành vấn đề với các chi nhánh ở nước ngoài.</string>
+    <string name="wc_4_content_3">Khả năng thiết lập ngày nghỉ bù</string>
+    <string name="wc_4_content_4">Khả năng thiết lập ngày làm bù</string>
+    <string name="wc_4_content_5">Khả năng thiết lập ngày nghỉ âm lịch</string>
+    <string name="wc_4_content_6">Khả năng thiết lập lặp lại tất cả các ngày nghỉ</string>
+    <string name="wc_5_intro">Hiệu quả áp dụng</string>
+    <string name="wc_5_content">Áp dụng CrewDday có thể nâng cao tính thống nhất trong tổ chức(Công ty) thông qua chia sẻ các ngày kỷ niệm, ngày lễ.</string>
+    <string name="wc_5_content_2">Có thể nâng cao hiệu suất công việc vượt bậc thông qua CrewDday để quản lý công việc.</string>
+    <string name="wc_6_text1">CrewDDay là một trong những phần mềm giải pháp thông minh cho doanh nghiệp của CrewCloud.</string>
+    <string name="wc_6_text2">Theo đó cần có ID của tổ chức(Công ty) và ID của nhân viên để cấu thành sơ đồ tổ chức.\nNếu chưa có ID tổ chức(Công ty) vui lòng click phía dưới để tạo.
+</string>
+    <string name="wc_6_text3">Tạo tổ chức mới</string>
+    <string name="chooseone">Bạn chỉ có thể chọn được một người.</string>
+    <string name="changegroup">Thay đổi nhóm</string>
+    <string name="startPlus">Bắt đầu</string>
+    <string name="del_group_y">Có</string>
+    <string name="del_group_n">Không</string>
+    <string name="del_group_q">Bạn chắc rằng muốn xóa nhóm này?</string>
+    <string name="groupname">Tên nhóm</string>
+    <string name="save">Lưu</string>
+    <string name="typegr">Vui lòng nhập tên nhóm</string>
+    <string name="typeip"> Vui lòng nhập tên nhóm</string>
+    <string name="addGroup">Thêm nhóm</string>
+    <string name="inputpls"> Vui lòng nhập tiêu đề nội dung</string>
+    <string name="managementtools">Management Tools</string>
+    <string name="addDepartment">Add Top Department</string>
+    <string name="editName">Edit Name</string>
+    <string name="addUser">Add User</string>
+    <string name="addChild">Add Child Department</string>
+    <string name="Disable">Disable</string>
+    <string name="Enable">Enable</string>
+    <string name="autoLogin">Tự động đăng nhập</string>
+    <string name="logged">Hiện tại đang được đăng nhập trên server CrewCloud.\nBạn có muốn đăng nhập bằng tài khoản trên?</string>
+    <string name="loginActivity_organizationID_v2">ID Tổ chức</string>
+    <string name="inputDepartmentName">Input department name please</string>
+    <string name="stopDepts">Include Stopped Depts</string>
+    <string name="stopUser">Include Stopped User</string>
+    <string name="Loading">Loading...</string>
+    <string name="id">ID</string>
+    <string name="reenterpass">Reenter Password</string>
+    <string name="name">Name</string>
+    <string name="nameEN">Name (EngLish)</string>
+    <string name="eMail">eMail Address</string>
+    <string name="sex">Sex</string>
+    <string name="cellPhone">Cell Phone</string>
+    <string name="companyPhone">Company Phone</string>
+    <string name="extensionNo">Extension No</string>
+    <string name="dateHired">Date Hired</string>
+    <string name="birthday">Birthday</string>
+    <string name="timeZone">Time Zone</string>
+    <string name="ddepts">Ddept\'s Information</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Etc</item>
+    </string-array>
+    <string name="vertical_ellipsis">⋮</string>
+    <string name="phonenumber">SĐT</string>
+    <string name="update_user">Update User</string>
+
+    <string name="sure_enable">Are you sure Enable?</string>
+    <string name="sure_disable">Are you sure Disable?</string>
+    <string name="welcome_to_dday">Welcome to CrewDDay</string>
+    <string name="click_to_add">Click to add new DDay</string>
+    <string name="login_username">ID cá nhân</string>
+    <string name="login_empty_input"> Không để trống Server site, ID sử dụng và Mật khẩu</string>
+    <string name="connection_falsed">Bạn không thể truy cập bằng địa chỉ này.</string>
+    <string name="login_password">Số bí mật</string>
+    <string name="change_pass">Change</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_dday">About DDay</string>
+    <string name="confirm">Confirm</string>
+    <string name="user_version">User Version</string>
+    <string name="crewchat_version">DDay Version</string>
+</resources>

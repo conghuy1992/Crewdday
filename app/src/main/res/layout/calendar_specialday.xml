@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="-5dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mgh"
+        android:layout_marginTop="@dimen/mgh"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/special_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_gravity="center"
+            android:text="@string/Solar"
+            android:textSize="@dimen/font_actionbar" />
+
+        <RadioButton
+            android:id="@+id/special_rb2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lunar"
+            android:textSize="@dimen/font_actionbar" />
+
+        <RadioButton
+            android:id="@+id/special_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Leaf"
+            android:textSize="@dimen/font_actionbar" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/special_lv_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+</LinearLayout>

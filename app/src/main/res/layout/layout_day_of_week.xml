@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mon"
+            android:textSize="@dimen/font_actionbar" />
+
+        <CheckBox
+            android:id="@+id/cb_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fri"
+            android:textSize="@dimen/font_actionbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tue"
+            android:textSize="@dimen/font_actionbar" />
+
+        <CheckBox
+            android:id="@+id/cb_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sat"
+            android:textSize="@dimen/font_actionbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wed"
+            android:textSize="@dimen/font_actionbar" />
+
+        <CheckBox
+            android:id="@+id/cb_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sun"
+            android:textSize="@dimen/font_actionbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thu"
+            android:textSize="@dimen/font_actionbar" />
+
+
+    </LinearLayout>
+</LinearLayout>

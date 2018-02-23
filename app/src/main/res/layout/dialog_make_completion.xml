@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border_dialog"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/dday_activity_divider">
+
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/make_complete"
+                android:textSize="@dimen/text_size_14_16"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingLeft="10dp"/>
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/edt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:gravity="left"
+            android:padding="10dp"
+            android:hint="@string/typesomething"
+            android:textSize="@dimen/text_size_14_16"
+            android:paddingLeft="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_confirm_delete_memo_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txt_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_button_1"
+                android:text="@string/cancel"
+                android:textSize="@dimen/text_size_14_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_button_2"
+                android:text="@string/Confirm"
+                android:textSize="@dimen/text_size_14_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

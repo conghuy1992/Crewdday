@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/list_check_choose_ic"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_complete"
+        android:title="@string/make_complete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_hide"
+        android:title="@string/hidec"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_un_comp"
+        android:title="@string/uncomp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_un_hidden"
+        android:title="@string/unhide"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+</menu>

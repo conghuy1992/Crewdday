@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingStart="15dp"
+    android:paddingRight="15dp"
+    android:paddingEnd="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_network_checking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_network_checking"
+        android:textColor="#555555"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_try_again"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/edt_groupname"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Some items cannot load due to server issue"
+            android:textSize="@dimen/text_size_14_16"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Ok"
+            android:textSize="@dimen/text_size_14_16"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

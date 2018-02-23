@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/share_information_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/shared_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_35_70"
+            android:drawablePadding="@dimen/dimen_5_10"
+            android:drawableRight="@drawable/ic_arr_more"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dimen_12_24"
+            android:paddingRight="@dimen/dimen_12_24"
+            android:textColor="@color/share_person_color"
+            android:textSize="@dimen/text_16_32" />
+
+        <View style="@style/border" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/share_list_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen_12_24"
+            android:paddingTop="@dimen/dimen_12_24" />
+    </ScrollView>
+</LinearLayout>

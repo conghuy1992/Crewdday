@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_filter"
+        android:icon="@drawable/mnubar_ic_filter"
+        android:title="Filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/stopDepts"
+                android:checkable="true"
+                android:title="@string/stopDepts"
+                app:showAsAction="never"></item>
+            <item
+                android:id="@+id/stopUser"
+                android:checkable="true"
+                android:title="@string/stopUser"
+                app:showAsAction="never"></item>
+        </menu>
+    </item>
+
+</menu>

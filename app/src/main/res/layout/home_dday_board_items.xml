@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginTop="8dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/date_container"
+            android:layout_toStartOf="@+id/date_container">
+
+            <com.dazone.crewdday.other.CustomImageView
+                android:id="@+id/img_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/img_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/message_check_ok_ic"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_tag_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/tag_icon_15"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Than Trinh Viet Khoi"
+                android:textColor="#737373"
+                android:textSize="@dimen/text_size_dday_item"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_dday_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Hello I am Khoi"
+                android:textSize="@dimen/text_size_dday_item" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_dday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:text="D+4"
+                android:textColor="#ff0000"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_dday"
+                android:layout_gravity="right"
+                android:text="2016-04-06"
+                android:textColor="#737373"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
